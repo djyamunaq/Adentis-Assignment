@@ -26,6 +26,11 @@ With scala installed and inside src/main/scala folder, type command
 <scala .\Main.scala "start-order-interval" "end-order-interval" "product-interval-1" "product-interval-2" 
     ... "product-interval-n">
 
+EXAMPLE: 
+
+scala .\Main.scala "2010-01-01 00:00:00" "2014-01-01 00:00:00" "1-3" "4-5" "80-100" (Custom intervals)
+scala .\Main.scala "2010-01-01 00:00:00" "2014-01-01 00:00:00" (Default intervals)
+
 in which start-order-interval and end-order-interval are dates in format "yyyy-mm-dd hh:mm:ss" and 
 product-interval-x is a month interval for products age in format "mm-mm". Note that product-interval-x is
 and optional argument and if not used, a default list of intervals will be used.
