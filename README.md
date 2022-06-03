@@ -1,9 +1,8 @@
-HEADER
+ADENTIS ASSIGNMENT
 
-Adentis Assignment
-Author: Denis Yamunaque
-Program: Organizing orders by age of product
-Language: Scala 3
+- Author: Denis Yamunaque
+- Program: Organizing orders by age of product
+- Language: Scala 3
 
 
 ABOUT THE PROGRAM
