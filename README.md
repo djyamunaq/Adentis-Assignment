@@ -52,5 +52,3 @@ With custom intervals (1-3, 4-5, 8-10) the output is as follows
 - 1 order (product1 with age 1 month) in 1-3 months
 - 1 order (product2 with age 4 months) in 4-5 months
 - 1 order (product5 with age 85 months) in 80-100 months
-
-#################################################
