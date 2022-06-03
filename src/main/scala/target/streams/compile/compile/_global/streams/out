@@ -1,0 +1,106 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:38:7: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m      val now     = Calendar.getInstance()[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:58:6: '(' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  if pattern.matches(time) == false then[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:74:5: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    val totalSeconds:BigInt = [0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:98:6: '(' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  if pattern.matches(interval) == false && patternLast.matches(interval) == false then[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:105:6: '(' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m  if pattern.matches(interval) then[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:106:5: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    val pattern(tempStartMonth, tempEndMonth) = interval[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:109:3: ';' expected but 'else' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  else[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:123:5: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    val cond1 = months > startMonth && endMonth == -1[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:126:8: '(' expected but identifier found.[0m
+[0m[[0m[31merror[0m] [0m[0m    if cond1 || cond2 then[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:132:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval product1 = Product("product1", "category1", 1.0, 1.0, Time("2022-04-01 10:00:00"))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:134:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval product2 = Product("product2", "category2", 1.0, 1.0, Time("2022-01-01 10:00:20"))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:136:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval product3 = Product("product3", "category3", 1.0, 1.0, Time("2021-08-01 10:00:00"))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:138:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval product4 = Product("product4", "category4", 1.0, 1.0, Time("2021-05-01 10:00:00"))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:140:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval product5 = Product("product5", "category5", 1.0, 1.0, Time("2015-06-02 10:01:00"))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:142:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval item1 = Item(1.0, 1.0, 1.0, product1)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:143:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval item2 = Item(1.0, 1.0, 1.0, product2)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:144:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval item3 = Item(1.0, 1.0, 1.0, product3)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:145:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval item4 = Item(1.0, 1.0, 1.0, product4)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:146:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval item5 = Item(1.0, 1.0, 1.0, product5)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:148:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval order1 = Order("customer1", "000000000", "address1", "total", Time("2010-01-01 13:45:33"), List(item1))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:149:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval order2 = Order("customer1", "000000000", "address1", "total", Time("2011-01-01 13:45:33"), List(item2))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:150:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval order3 = Order("customer1", "000000000", "address1", "total", Time("2012-01-01 13:45:33"), List(item3))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:151:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval order4 = Order("customer1", "000000000", "address1", "total", Time("2013-01-01 13:45:33"), List(item4))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:152:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval order5 = Order("customer1", "000000000", "address1", "total", Time("2012-01-01 13:45:33"), List(item5))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:154:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval orders:List[Order] = List(order1, order2, order3, order4, order5)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:156:7: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m@main def main(args:String*) = [0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:158:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val currentTime = Time("2022-06-02 12:00:00")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:161:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  if argc < 2 then[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:162:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    println("[ERROR] Not enough arguments")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:163:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    sys.exit(1)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:165:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val monthIntervals:List[MonthInterval] = [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:167:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      args[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:176:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val interval:List[Time] = List(Time(args(0)), Time(args(1))).sortBy(time => time.toString())[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:179:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val filteredOrders = [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala:187:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  monthIntervals.map((monthInterval) => {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m35 errors found[0m
