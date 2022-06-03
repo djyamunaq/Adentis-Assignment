@@ -1,15 +1,12 @@
-#################################################
 HEADER
-#################################################
 
 Adentis Assignment
 Author: Denis Yamunaque
 Program: Organizing orders by age of product
 Language: Scala 3
 
-#################################################
+
 ABOUT THE PROGRAM
-#################################################
 
 The program was developed using scala lang and trying to take profit of the language resources.
 Some possible improvements are the better structuration of code in order to make it more robust and 
@@ -22,9 +19,8 @@ of low accuracy, since months have different amounts of days and therefore diffe
 what is not perceptible within low range periods, but is more and more perceptible when dealing with larger 
 ranges.
 
-#################################################
+
 HOW TO USE IT
-#################################################
 
 With scala installed and inside src/main/scala folder, type command 
 
