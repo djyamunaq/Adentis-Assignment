@@ -38,7 +38,7 @@ used an average of seconds to do the math. Anyway, it's possible to see how the 
 1-3 months:     1 orders
 4-6 months:     1 orders
 7-12 months:    2 orders
->12 months:     1 orders
+\>12 months:     1 orders
 
 for the static data with the default list of month intervals for products. 
 
