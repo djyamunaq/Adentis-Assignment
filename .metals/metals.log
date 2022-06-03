@@ -3423,3 +3423,213 @@ WARNING: Unmatched cancel notification for request id 3101
 2022.06.03 11:41:45 WARN  Could not load snapshot text for C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala
 2022.06.03 11:41:45 INFO  compiling root (1 scala source)
 2022.06.03 11:41:45 INFO  time: compiled root in 0.33s
+2022.06.03 11:51:46 INFO  time: code lens generation in 1.34s
+2022.06.03 11:51:46 INFO  time: code lens generation in 3.06s
+Jun 03, 2022 11:51:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FDenisYamunaque%2FDocuments%2FADENTIS%2Fadentis%2Fbuild.sbt:18: error: ) expected but string constant found
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29"
+                           ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FDenisYamunaque%2FDocuments%2FADENTIS%2Fadentis%2Fbuild.sbt:18: error: ) expected but string constant found
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29"
+                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:360)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:364)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:222)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpen(ScalametaParser.scala:218)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:2236)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2185)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:2093)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2093)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4047)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4042)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4324)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.06.03 11:51:51 INFO  running 'C:\Program Files\Java\jdk-11.0.14\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\DENISY~1\AppData\Local\Temp\metals15375523202356450225\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.03 11:51:52 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 11.0.14)
+2022.06.03 11:51:52 INFO  [info] loading settings for project adentis-build-build from metals.sbt ...
+2022.06.03 11:51:54 INFO  [info] loading project definition from C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\project\project
+2022.06.03 11:51:54 INFO  [info] loading settings for project adentis-build from metals.sbt ...
+2022.06.03 11:51:55 INFO  [info] loading project definition from C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\project
+2022.06.03 11:51:58 INFO  [success] Generated .bloop\adentis-build.json
+2022.06.03 11:51:58 INFO  [success] Total time: 3 s, completed 3 Jun 2022, 11:51:58
+2022.06.03 11:51:58 INFO  [error] [C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\build.sbt]:12: ')' expected but string literal found.
+2022.06.03 11:51:58 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.06.03 11:51:59 INFO  time: ran 'sbt bloopInstall' in 8.02s
+2022.06.03 11:51:59 ERROR sbt command failed: C:\Program Files\Java\jdk-11.0.14\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\DENISY~1\AppData\Local\Temp\metals15375523202356450225\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.06.03 11:51:59 INFO  Disconnecting from Bloop session...
+2022.06.03 11:51:59 INFO  Shut down connection with build server.
+2022.06.03 11:51:59 INFO  Shut down connection with build server.
+2022.06.03 11:51:59 INFO  Attempting to connect to the build server...
+2022.06.03 11:51:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\.metals\bsp.trace.json or C:\Users\DenisYamunaque\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.03 11:51:59 INFO  Attempting to connect to the build server...
+2022.06.03 11:51:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\project\.metals\bsp.trace.json or C:\Users\DenisYamunaque\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.06.03 11:51:59 INFO  time: Connected to build server in 0.12s
+2022.06.03 11:51:59 INFO  Connected to Build server: Bloop v1.5.0
+Jun 03, 2022 11:52:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FDenisYamunaque%2FDocuments%2FADENTIS%2Fadentis%2Fbuild.sbt:18: error: ) expected but string constant found
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29"
+                           ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FDenisYamunaque%2FDocuments%2FADENTIS%2Fadentis%2Fbuild.sbt:18: error: ) expected but string constant found
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29"
+                           ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:360)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:364)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:222)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpen(ScalametaParser.scala:218)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsWithUsing(ScalametaParser.scala:2236)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2185)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$5(ScalametaParser.scala:2093)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2093)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4047)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4042)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4324)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.06.03 11:52:01 INFO  time: indexed workspace in 2.2s
+2022.06.03 11:52:03 INFO  time: code lens generation in 1.11s
+2022.06.03 11:58:07 INFO  compiling root (1 scala source)
+2022.06.03 11:58:07 INFO  time: compiled root in 0.32s
+2022.06.03 11:59:21 INFO  compiling root (1 scala source)
+2022.06.03 11:59:21 INFO  time: compiled root in 0.33s
+2022.06.03 12:01:01 INFO  compiling root (1 scala source)
+2022.06.03 12:01:01 INFO  time: compiled root in 0.34s
+2022.06.03 12:02:14 INFO  compiling root (1 scala source)
+2022.06.03 12:02:14 INFO  time: compiled root in 0.4s
+2022.06.03 12:02:24 INFO  compiling root (1 scala source)
+2022.06.03 12:02:24 INFO  time: compiled root in 0.39s
+2022.06.03 12:02:35 INFO  compiling root (1 scala source)
+2022.06.03 12:02:35 INFO  time: compiled root in 0.43s
+2022.06.03 12:02:40 INFO  compiling root (1 scala source)
+2022.06.03 12:02:40 INFO  time: compiled root in 0.4s
+2022.06.03 12:02:42 INFO  compiling root (1 scala source)
+2022.06.03 12:02:42 INFO  time: compiled root in 0.4s
+2022.06.03 12:03:17 INFO  compiling root (1 scala source)
+2022.06.03 12:03:17 INFO  time: compiled root in 0.32s
+Jun 03, 2022 12:03:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3882
+2022.06.03 12:04:05 INFO  compiling root (1 scala source)
+2022.06.03 12:04:05 INFO  time: compiled root in 0.29s
+2022.06.03 12:05:19 INFO  compiling root (1 scala source)
+2022.06.03 12:05:19 INFO  time: compiled root in 0.29s
+2022.06.03 12:06:14 INFO  compiling root (1 scala source)
+2022.06.03 12:06:14 INFO  time: compiled root in 0.28s
+2022.06.03 12:08:20 INFO  compiling root (1 scala source)
+2022.06.03 12:08:20 INFO  time: compiled root in 0.3s
+2022.06.03 12:10:56 INFO  compiling root (1 scala source)
+2022.06.03 12:10:56 INFO  time: compiled root in 0.28s
+2022.06.03 12:12:19 INFO  compiling root (1 scala source)
+2022.06.03 12:12:19 INFO  time: compiled root in 0.29s
+2022.06.03 12:18:40 INFO  compiling root (1 scala source)
+2022.06.03 12:18:40 INFO  time: compiled root in 0.32s
+2022.06.03 12:18:46 INFO  compiling root (1 scala source)
+2022.06.03 12:18:46 INFO  time: compiled root in 0.28s
+2022.06.03 12:19:19 INFO  compiling root (1 scala source)
+2022.06.03 12:19:19 INFO  time: compiled root in 0.3s
+2022.06.03 12:21:23 WARN  Could not load snapshot text for C:\Users\DenisYamunaque\Documents\ADENTIS\adentis\src\main\scala\Main.scala
+2022.06.03 12:21:23 INFO  compiling root (1 scala source)
+2022.06.03 12:21:23 INFO  time: compiled root in 0.3s
+2022.06.03 12:21:36 INFO  compiling root (1 scala source)
+2022.06.03 12:21:36 INFO  time: compiled root in 0.27s
+2022.06.03 12:21:55 INFO  compiling root (1 scala source)
+2022.06.03 12:21:55 INFO  time: compiled root in 0.28s
+2022.06.03 12:24:07 INFO  compiling root (1 scala source)
+2022.06.03 12:24:07 INFO  time: compiled root in 0.32s
